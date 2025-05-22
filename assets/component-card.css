@@ -598,11 +598,11 @@
   }
 }
 
-.zoom-trigger {
+.bs-devshop__zoom-trigger {
   transition: transform 0.4s ease;
   will-change: transform;
 }
-.zoom-trigger.zooming {
+.bs-devshop__zoom-trigger.zooming {
   transform: scale(1.15);
   z-index: 10;
 }
