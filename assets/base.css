@@ -137,7 +137,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
 
   .page-width-desktop {
     max-width: var(--page-width);
-    padding: 0 5rem;
+    padding: 0 2rem;
   }
 }
 
@@ -549,6 +549,8 @@ hr {
   text-decoration: none;
   color: currentColor;
   display: block;
+  font-weight: 900;
+  font-size: calc(var(--font-heading-scale) * 1.6rem);  
 }
 
 .placeholder {

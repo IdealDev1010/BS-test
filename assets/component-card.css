@@ -62,6 +62,10 @@
     rgba(var(--color-shadow), var(--shadow-opacity));
 }
 
+.card--standard .card__inner {
+  border-radius: 50%;
+}
+
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .card--card.gradient,
 .card__inner.gradient {
@@ -592,4 +596,13 @@
   .grid__item:nth-child(8n) .product-card-wrapper:hover .shape--blob {
     clip-path: polygon(var(--shape--blob-5));
   }
+}
+
+.zoom-trigger {
+  transition: transform 0.4s ease;
+  will-change: transform;
+}
+.zoom-trigger.zooming {
+  transform: scale(1.15);
+  z-index: 10;
 }
