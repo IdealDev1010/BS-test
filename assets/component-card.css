@@ -66,6 +66,10 @@
   border-radius: 50%;
 }
 
+.card--standard .card__inner .card-media {
+  background-color: transparent;
+}
+
 /* Needed for gradient continuity with or without animation, the transform scopes the gradient to its container which happens already when animation are turned on */
 .card--card.gradient,
 .card__inner.gradient {
