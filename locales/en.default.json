@@ -58,9 +58,12 @@
     }
   },
   "newsletter": {
-    "label": "Email",
+    "label": "email address",
     "success": "Thanks for subscribing",
     "button_label": "Subscribe"
+  },
+  "newsletter_submit": {
+    "label": "Submit"
   },
   "accessibility": {
     "skip_to_text": "Skip to content",
@@ -278,7 +281,9 @@
       "cart_count": {
         "one": "{{ count }} item",
         "other": "{{ count }} items"
-      }
+      },
+      "account": "Account",
+      "bags": "Bag"
     },
     "cart": {
       "title": "Your cart",

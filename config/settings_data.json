@@ -1,9 +1,10 @@
 {
   "current": {
-    "logo_width": 90,
-    "type_header_font": "assistant_n8",
+    "logo": "shopify:\/\/shop_images\/PICANTE.png",
+    "logo_width": 260,
+    "type_header_font": "work_sans_n8",
     "heading_scale": 100,
-    "type_body_font": "assistant_n6",
+    "type_body_font": "work_sans_n6",
     "body_scale": 105,
     "page_width": 1920,
     "spacing_sections": 0,
@@ -98,7 +99,7 @@
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "",
     "brand_description": "<p><\/p>",
-    "brand_image_width": 100,
+    "brand_image_width": 50,
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "",
@@ -135,7 +136,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#fcf9ef",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
@@ -146,9 +147,9 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#da3f33",
           "background_gradient": "",
-          "text": "#121212",
+          "text": "#fcf9ef",
           "button": "#121212",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
